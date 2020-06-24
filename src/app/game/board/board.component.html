@@ -1,0 +1,7 @@
+<div class="game-board">
+  <app-board-cell
+    *ngFor="let cell of boardCells; let i = index"
+    [cellContent]="cell"
+    (click)="makeAMove(i)"
+  ></app-board-cell>
+</div>

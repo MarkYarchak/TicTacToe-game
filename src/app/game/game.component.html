@@ -1,0 +1,18 @@
+<div class="game-page">
+  <app-nav-drawer
+    [winner]="winner"
+    [noWinner]="noWinner"
+    [currentPlayer]="currentPlayer"
+  ></app-nav-drawer>
+  <div class="game-page__content">
+    <div class="start-new-game-wrapper">
+      <button (click)="clearBoard()">Start new game</button>
+    </div>
+    <div class="board-wrapper">
+      <app-board
+        [boardCells]="boardCells"
+        (makePlayerMove)="makePlayerMove($event)"
+      ></app-board>
+    </div>
+  </div>
+</div>

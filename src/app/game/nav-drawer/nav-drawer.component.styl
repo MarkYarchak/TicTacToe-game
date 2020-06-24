@@ -1,0 +1,15 @@
+$bottom-border = 1px;
+
+.nav-drawer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
+  height: "calc(80px - %s)" % $bottom-border;
+  border-bottom: $bottom-border solid black;
+  * {
+    color: white;
+    margin: 0;
+    padding: 0 3px;
+  }
+}
