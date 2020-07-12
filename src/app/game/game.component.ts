@@ -50,6 +50,15 @@ export class GameComponent {
     }
   }
 
+  startNewGame() {
+    this.clearBoard();
+    this.setDefaultPlayer();
+  }
+
+  setDefaultPlayer() {
+    this.currentPlayer = 1;
+  }
+
   clearBoard() {
     this.boardCells = this.boardCells.map(() => '');
   }
