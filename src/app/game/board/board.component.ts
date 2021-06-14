@@ -6,8 +6,6 @@ import {Component, EventEmitter, Output, Input} from '@angular/core';
   styleUrls: ['./board.component.styl'],
 })
 export class BoardComponent {
-
-  constructor() { }
   @Output() makePlayerMove = new EventEmitter();
   @Input() currentPlayer;
 
@@ -18,5 +16,4 @@ export class BoardComponent {
       this.makePlayerMove.emit(index);
     }
   }
-
 }

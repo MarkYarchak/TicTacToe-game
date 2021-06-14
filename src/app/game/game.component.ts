@@ -13,6 +13,11 @@ export class GameComponent {
 
   currentPlayer: Player = 1;
 
+  user = {
+    name: 'Mark Yarchak',
+    password: 'secret',
+  };
+
   get winningCombinations() {
     return [
       // horizontal lines

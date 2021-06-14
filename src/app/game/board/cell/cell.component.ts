@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-board-cell',
@@ -6,9 +6,5 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./cell.component.styl']
 })
 export class CellComponent {
-
   @Input() cellContent;
-
-  constructor() { }
-
 }
