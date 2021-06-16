@@ -237,18 +237,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function CellComponent_img_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 3);
+function CellComponent__svg_svg_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "g");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "path", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function CellComponent_div_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 5);
 } }
 class CellComponent {
 }
 CellComponent.ɵfac = function CellComponent_Factory(t) { return new (t || CellComponent)(); };
-CellComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CellComponent, selectors: [["app-board-cell"]], inputs: { cellContent: "cellContent" }, decls: 3, vars: 2, consts: [[1, "board-cell"], ["src", "/assets/cross.svg", "alt", "", 4, "ngIf"], ["class", "cell-empty-circle", 4, "ngIf"], ["src", "/assets/cross.svg", "alt", ""], [1, "cell-empty-circle"]], template: function CellComponent_Template(rf, ctx) { if (rf & 1) {
+CellComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CellComponent, selectors: [["app-board-cell"]], inputs: { cellContent: "cellContent" }, decls: 3, vars: 2, consts: [[1, "board-cell"], ["xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 512.001 512.001", "style", "enable-background:new 0 0 512.001 512.001; width: 50%;", 0, "xml", "space", "preserve", 4, "ngIf"], ["class", "cell-empty-circle", 4, "ngIf"], ["xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 512.001 512.001", 0, "xml", "space", "preserve", 2, "enable-background", "new 0 0 512.001 512.001", "width", "50%"], ["d", "M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717\n        L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859\n        c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287\n        l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285\n        L284.286,256.002z"], [1, "cell-empty-circle"]], template: function CellComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, CellComponent_img_1_Template, 1, 0, "img", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, CellComponent__svg_svg_1_Template, 3, 0, "svg", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, CellComponent_div_2_Template, 1, 0, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
